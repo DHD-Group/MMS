@@ -1,0 +1,72 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Variables and Arrays and Javascript Loops	</title>
+		<script>
+			var car = "Honda";
+			var car = "Toyota";
+			var x = 5;
+			var y = 10;
+			var cars = new Array(" Honda "," Toyota ", " Ford ", " Merc ");
+			cars [4] = " Dodge ";
+			
+			
+			
+		</script>
+	</head>
+	<body>
+		<script>
+		document.write("anything      ");
+		document.write(car+"      ");
+		document.write(x+y +"    test");
+		document.write(cars[0]);
+		document.write(cars[1]);
+		document.write(cars[2]);
+		document.write(cars[3]);
+		document.write(cars[4]);
+		document.write('<br>');
+		document.write(cars.length);
+		document.write('<br>');
+		document.write(cars.indexOf(" Toyota "));
+		document.write('<br>');
+		
+		for(var i = 0; i<cars.length; i++){
+		document.write(cars[i]);
+		document.write('<br>');
+		}
+		var j=0;
+		while(j<cars.length){
+		document.write(cars[j] + j);
+		document.write('<br>');
+		j++;
+		
+		}
+		
+		var people = ['Sally', 'Bob', 'Steve', 'Jen'];
+		document.write('<br>');
+		document.write(people[0]);
+		document.write('<br>');
+		document.write('<br>');
+		document.write('<br>');
+		for(i in people){
+		document.write(people[i]);
+		document.write('<br>');
+		}
+		document.write('<br>');
+		
+		for(i=0;i < people.length; i++){
+		document.write('<br>');
+		document.write(people[i]);
+		document.write('<br>');
+		}
+		y=0;
+		while(y<people.length){
+		document.write('<br>');
+		document.write(people[y]);
+		document.write('<br>');	
+		y++;
+		
+		}
+		</script>
+	</body>
+</html>
